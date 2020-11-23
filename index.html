@@ -2,71 +2,38 @@
 
 <html lang="en">
     <head>
-        <title>flexbox!!</title>
+        <title>grid</title>
         <style>
-            #container {
-                display: flex;
-                flex-wrap: wrap;
-            }
-            #container > div {
-                background-color: springgreen;
-                font-size: 20px;
-                margin: 20px;
+            .grid {
+                background-color: green;
+                display: grid;
                 padding: 20px;
-                width: 200px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 200px 200px auto;
+            }
+            #grid-item {
+                background-color: orange;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
             }
         </style>
     </head>
     <body>
-        <div id="container">
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
-            <div>changing the window size will keep these boxes intact. Try it!</div>
+        <div class="grid">
+            <div id="grid-item">1</div>
+            <div id="grid-item">2</div>
+            <div id="grid-item">3</div>
+            <div id="grid-item">4</div>
+            <div id="grid-item">5</div>
+            <div id="grid-item">6</div>
+            <div id="grid-item">7</div>
+            <div id="grid-item">8</div>
+            <div id="grid-item">9</div>
+            <div id="grid-item">10</div>
+            <div id="grid-item">11</div>
+        </div>
     </body>
 
 </html>
